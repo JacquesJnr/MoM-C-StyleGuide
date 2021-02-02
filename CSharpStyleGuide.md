@@ -174,7 +174,7 @@ public int PageNumber
         
     }
  ```
- Long method names and argument names should be appropriatly formatted. Try and allignall method arguments with the first and avoid long method names:
+ Long method names and argument names should be appropriatly formatted. Try and allign all method arguments with the first and avoid long method names:
  
  ##### Avoid:
 ```csharp
