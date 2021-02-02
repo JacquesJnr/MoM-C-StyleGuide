@@ -1,4 +1,4 @@
-[![Unity Logo](https://upload.wikimedia.org/wikipedia/commons/1/19/Unity_Technologies_logo.svg)](UnityLogo)
+[![Unity Logo](https://i.imgur.com/9psf0xv.png)](UnityLogo)
 # Unity C# Coding Style Guide 
 #
 ***
