@@ -12,7 +12,7 @@
 - [Declarations](#declarations)
     + [Classes](#classes)
     + [Fields](#fields)
-    + [Array vs. List](#array-vs.-list)
+    + [Array vs. List](#array-vs-list)
     + [Properties](#properties)
     + [Access Modifiers](#access-modifiers)
 ## Stylization: 
@@ -139,7 +139,7 @@ Do not declare more than one variable per line, avoid using underscores and Hung
     float c;
 ```
 
-### Array vs. List
+### Array vs List
 In general, prefer `List<>` over `array[]` for `public` variables, properties and return types.
 + Prefer `List<>` when the size of the container can change.
 + Prefer `array[]` when the size of the container is fixed and known at construction time.
