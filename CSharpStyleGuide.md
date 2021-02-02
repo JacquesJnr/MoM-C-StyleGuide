@@ -1,9 +1,7 @@
-# MoM-CSharpStyleGuide
-Style increased to 100
-
 [![Unity Logo](https://github.com/JacquesJnr/MoM-CSharpStyleGuide/blob/main/GuideUnityIcon.png)](UnityLogo)
-# Unity C# Coding Style Guide 
+# Unity C# Coding Style Guide
 ***
+
 ## Table of Contents
 
 - [Stylization](#stylization)
@@ -185,3 +183,7 @@ https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-progra
 https://github.com/raywenderlich/c-sharp-style-guide
 ##### And expanded upon by Google's C# Style Guide:
 https://google.github.io/styleguide/csharp-style.html
+
+MoM-CSharpStyleGuide
+Style increased to 100
+
