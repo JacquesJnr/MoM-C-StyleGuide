@@ -6,7 +6,7 @@
 
 - [Stylization](#stylization)
     + [Commenting](#commenting)
-    + [Indentation & Spacing](#indentation--white-space)
+    + [Indentation & White Space](#indentation--white-space)
     + [Braces](#braces)
     + [Language](#language)
 - [Declarations](#declarations)
