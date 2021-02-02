@@ -12,6 +12,8 @@
 - [Declarations](#declarations)
     + [Classes](#classes)
     + [Fields](#fields)
+    + [Array vs. List](#array-vs.-list)
+    + [Properties](#properties)
     + [Access Modifiers](#access-modifiers)
 ## Stylization: 
 ### Commenting
