@@ -93,6 +93,7 @@ public class CodingStyleGuide()
 ### Access Modifiers and You
 
 Unity uses its own serializer to display information inside of the inspector like this:
+#
 [![Image from Gyazo](https://i.gyazo.com/543dcc94a4503569f6e740e2d1a9e386.png)](https://gyazo.com/543dcc94a4503569f6e740e2d1a9e386)
 
 `public` access variables can be accessed and modified by any other script AND is accessible by the Unity inspector.
