@@ -3,7 +3,6 @@ Style increased to 100
 
 [![Unity Logo](https://github.com/JacquesJnr/MoM-CSharpStyleGuide/blob/main/GuideUnityIcon.png)](UnityLogo)
 # Unity C# Coding Style Guide 
-#
 ***
 ## Table of Contents
 
@@ -16,19 +15,15 @@ Style increased to 100
     + [Classes](#classes)
     + [Fields](#fields)
     + [Access Modifiers](#access-modifiers)
-#
 ## Stylization: 
-#
 ### Commenting
 Insert a space after the "//" in single line comments, capitalize the first letter, end each with a full-stop/ period.
 Insert comments above the relavent code rather than on the same line.
 ##### Avoid:
-#
 ```csharp
 int x = 0; // This variable is x.
 ```
 ##### Prefer:
-#
 ```csharp
 // This variable is x.
 int x = 0;
@@ -37,7 +32,7 @@ int x = 0;
 Indendation should be done using spaces - not tabs!
 Lines should not exceed 100 characters, let's avoid wrapping nightmares.
 ##### Example
-#
+
 ```csharp
 for (int i = 0; i < 10; i++)
 { 
@@ -47,7 +42,7 @@ for (int i = 0; i < 10; i++)
 ### Brace Styling
 Always include braces for conditional statements, put the opening brace on the line below the method, condition or class name.
 ##### Avoid:
-#
+
 ```csharp
  void BracesOnTheSameLine(){
         if (someTest)
@@ -55,7 +50,7 @@ Always include braces for conditional statements, put the opening brace on the l
     }
 ```
 ##### Prefer:
-#
+
 ```csharp
  void BracesOnTheNextLine()
     {
@@ -68,20 +63,22 @@ Always include braces for conditional statements, put the opening brace on the l
 ### Language
 Use U.S, English Spelling.
 ##### Avoid:
-#
+
 ```csharp
   string theColourTrap = "Red";
 ```
 ##### Prefer:
-#
+
 ```csharp
  string color = "Red";
 ```
 *Editor's note - Reminder for others, like me who inherently use colour*  ;]
-#
+
+
 ***
 ## Declarations:
-#
+
+
 ### Classes 
 Classes are written in **PascalCase**. For example:
 ```csharp
@@ -93,7 +90,8 @@ public class CodingStyleGuide()
 ### Access Modifiers and You
 
 Unity uses its own serializer to display information inside of the inspector like this:
-#
+
+
 [![Image from Gyazo](https://i.gyazo.com/543dcc94a4503569f6e740e2d1a9e386.png)](https://gyazo.com/543dcc94a4503569f6e740e2d1a9e386)
 
 `public` access variables can be accessed and modified by any other script AND is accessible by the Unity inspector.
@@ -125,13 +123,11 @@ All non-static variables are written in **camelCase**. For example:
 ```
 Do not declare more than one variable per line, avoid using underscores and Hungarian notation.
 ##### Avoid:
-#
 ```csharp
     int _myInt;
     float a, b, c;
 ```
 ##### Prefer:
-#
 ```csharp
     int myInt;
     float a:
@@ -167,7 +163,6 @@ public int PageNumber
  Long method names and argument names should be appropriatly formatted. Try and allignall method arguments with the first and avoid long method names:
  
  ##### Avoid:
-#
 ```csharp
      // Desciption.
     void AVeryLongFunctionNameThatCausesLineWrappingProblems(int longArgumentName, int longArgumentName2, int longArgumentName3) 
@@ -176,7 +171,6 @@ public int PageNumber
     }
 ```
 ##### Prefer:
-#
 ```csharp
      void ShortFunctionName(
      int longArgumentName, int longArgumentName2, int longArgumentName3) 
@@ -184,8 +178,6 @@ public int PageNumber
         
     }
 ```
-#
-#
 ***
 ##### This guide is derrived from C# Coding Definitions put in place by Microsoft : 
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions 
