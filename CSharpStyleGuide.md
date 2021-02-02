@@ -26,15 +26,19 @@ int x = 0; // This variable is x.
 // This variable is x.
 int x = 0;
 ```
-### Indentation & Spacing
-Indendation should be done using spaces - not tabs!
-Lines should not exceed 100 characters, let's avoid wrapping nightmares.
+### Indentation & White Space
++ Indendation should be done using spaces - not tabs!
++ Lines should not exceed 100 characters, let's avoid wrapping nightmares.
++ No line break between closing brace and else.
++ Braces used even when optional.
++ Space after `if/for/while`, and after commas.
++ No space after an opening parenthesis or before a closing parenthesis.
 ##### Example
 
 ```csharp
 for (int i = 0; i < 10; i++)
 { 
-    Debug.Log("index=" + i);                        // Use 4 spaces for best readability.
+    Debug.Log("index=" + i);                        // Use 4 spaces identation for best readability.
 }
 ```
 ### Brace Styling
@@ -55,7 +59,7 @@ Always include braces for conditional statements, put the opening brace on the l
         if (someTest)
         {
             //..
-        }
+        }else {//..}
     }
 ```
 ### Language
@@ -133,6 +137,16 @@ Do not declare more than one variable per line, avoid using underscores and Hung
     float c;
 ```
 
+### Array vs. List
+In general, prefer `List<>` over `array[]` for `public` variables, properties and return types.
++ Prefer `List<>` when the size of the container can change.
++ Prefer `array[]` when the size of the container is fixed and known at construction time.
++ Prefer `array[]` for multi-dimentional containers.
++ Note:
+    + `array[]` and `List<>` both represent linear, contiguous containers.
+    + Similar to C++ `array[]` vs `std::vector`, arrays are of fixed capacity, whereas `List<>` can be added to.
+    + In some cases `array[]` are more performant, but in general `List<>` is more flexible.
+
 ### Properties
 Properties are wrtitten in **PascalCase**. For example:
 
@@ -177,7 +191,7 @@ public int PageNumber
     }
 ```
 ***
-##### This guide is derrived from C# Coding Definitions put in place by Microsoft : 
+##### This guide is derived from C# Coding Definitions put in place by Microsoft : 
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions 
 ##### Formatting from this guide when formatting specifically for Unity C#:
 https://github.com/raywenderlich/c-sharp-style-guide
