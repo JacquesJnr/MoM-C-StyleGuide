@@ -195,7 +195,7 @@ public int PageNumber
 ***
 ##### This guide is derived from C# Coding Definitions put in place by Microsoft : 
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions 
-##### Formatting from this guide when formatting specifically for Unity C#:
+##### Formatting is based off this style guide specifically for Unity C#:
 https://github.com/raywenderlich/c-sharp-style-guide
 ##### And expanded upon by Google's C# Style Guide:
 https://google.github.io/styleguide/csharp-style.html
