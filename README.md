@@ -134,8 +134,8 @@ Do not declare more than one variable per line, avoid using underscores and Hung
 ##### Prefer:
 ```csharp
     int myInt;
-    float a:
-    float b:
+    float a;
+    float b;
     float c;
 ```
 
